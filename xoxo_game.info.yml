@@ -1,0 +1,9 @@
+name: XoXo Game
+description: Legendary Tic Tac Toe game using React
+package: Decoupled React
+
+type: module
+core: 8.x
+
+dependencies:
+  - block  

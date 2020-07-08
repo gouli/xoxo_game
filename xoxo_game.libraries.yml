@@ -1,0 +1,15 @@
+react:
+  version: 15.2.1
+  js:
+    static/node_modules/react/dist/react.js: {}
+    static/node_modules/react-dom/dist/react-dom.js: {}
+
+game:
+  version: 1.x
+  js:
+    static/dist/xoxo_game.bundle.js: {}
+  css:
+    state:
+      static/dist/index.css: {}
+  dependencies:
+    - xoxo_game/react
